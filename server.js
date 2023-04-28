@@ -12,7 +12,7 @@ import { handleDelete } from './controllers/delete.js';
 const db = knex({
     client: 'pg',
     connection: {
-        host : 'postgres://wu:Uz9pYDHDrBdZsMnHGmgGAgCDPpg2r7ri@dpg-ch5mdid269v5rfrjnhig-a/smartbrain_opk6',
+        host : 'dpg-ch5mdid269v5rfrjnhig-a.singapore-postgres.render.com',
         port : 5432,
         user : 'wu',
         password : 'Uz9pYDHDrBdZsMnHGmgGAgCDPpg2r7ri',
